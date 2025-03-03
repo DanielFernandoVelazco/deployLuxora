@@ -1,8 +1,10 @@
 services:
   nest-demo:
-    build:
-      context: .
-      dockerfile: Dockerfile
+    #build:
+    #  context: .
+    #  dockerfile: Dockerfile
+
+    image: velazcofernandodaniel/proyecto_luxora:latest
     ports:
       - 3001:3000
     command: [ "node", "dist/main.js" ]
