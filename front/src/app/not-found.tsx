@@ -16,7 +16,7 @@ function CustomNotFound() {
                 </p>
             </div>
             <div className="px-5 mx-5">
-                <Image 
+                <Image
                     src="/assets/carga.gif"
                     alt="404"
                     width={550}
@@ -28,3 +28,4 @@ function CustomNotFound() {
 }
 
 export default CustomNotFound;
+
